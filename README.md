@@ -169,8 +169,8 @@ lastName;
 // => "Lovelace"
 ```
 
-If you create one inside of a function — wait for it — it's still available
-globally:
+If you create a variable without `const`, `let`, or `var` **inside** of a 
+function — wait for it — it's still available globally:
 
 ```js
 function bankAccount () {
